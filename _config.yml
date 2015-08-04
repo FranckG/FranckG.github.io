@@ -1,0 +1,10 @@
+excerpt_separator: ""
+pygments: true
+markdown: kramdown
+url: http://FranckG.github.io
+title: Tech tips to be happy fo find around
+email: franck.gilliers@gmail.com
+author: Franck Gilliers
+description: I'm a software engineer and post here some tips / tricks / howto I want to recover later. Furthermore, it may be useful for others 
+paginate: 3
+google_analytics: 
