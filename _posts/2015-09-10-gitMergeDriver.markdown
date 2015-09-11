@@ -37,5 +37,5 @@ where tokens are replaced
  * %A: current version
  * %B: other branches version
 
-To go further, see
+To go further, see:
  * [Official git attribute help](https://www.kernel.org/pub/software/scm/git/docs/gitattributes.html)
