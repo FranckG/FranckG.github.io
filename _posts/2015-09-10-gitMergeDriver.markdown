@@ -8,7 +8,6 @@ In order to customize the behavior of Git in my repository, I have to add a file
 
 Create a file name **.gitattributes** at the root of the working directory. So this file will be tracked by Git
 
-ex:
 
 ```
 # Specific diff
@@ -29,7 +28,9 @@ Now, I will define this merge driver. I add it to the Git configuration, so **it
 ```
 git config --global --add diff.Rhapsody.name 'Rhapsody diff driver'
 git config --global --add diff.Rhapsody.driver '/path/to/difftool %O %A %B'
+```
 
+```
 git config --global --add merge.Rhapsody.name 'Rhapsody merge driver'
 git config --global --add merge.Rhapsody.driver '/path/to/mergetool %O %A %B'
 ```
