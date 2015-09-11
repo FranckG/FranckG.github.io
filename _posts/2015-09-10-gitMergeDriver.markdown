@@ -14,7 +14,9 @@ ex:
 # Specific diff
 *.rpy  diff=Rhapsody
 *.cmp  diff=Rhapsody
+```
 
+```
 # Specific merge
 *.rpy  merge=Rhapsody
 *.cmp  merge=Rhapsody
@@ -33,9 +35,9 @@ git config --global --add merge.Rhapsody.driver '/path/to/mergetool %O %A %B'
 ```
 
 where tokens are replaced
- * %O: ancestor's version  
- * %A: current version
- * %B: other branches version
 
-To go further, see:
- * [Official git attribute help](https://www.kernel.org/pub/software/scm/git/docs/gitattributes.html)
+* %O: ancestor's version  
+* %A: current version
+* %B: other branches version
+
+To go further, see: [Official git attribute help](https://www.kernel.org/pub/software/scm/git/docs/gitattributes.html)
