@@ -38,4 +38,4 @@ where tokens are replaced
  * %B: other branches version
 
 To go further, see
- * [Official git attribute help|https://www.kernel.org/pub/software/scm/git/docs/gitattributes.html]
+ * [Official git attribute help](https://www.kernel.org/pub/software/scm/git/docs/gitattributes.html)
