@@ -28,7 +28,7 @@ Now, I will define this merge driver. I add it to the Git configuration, so **it
 ~~~ shell
 git config --global --add diff.Rhapsody.name 'Rhapsody diff driver'
 git config --global --add diff.Rhapsody.driver '/path/to/difftool %O %A %B'
-~~~ shell
+~~~
 
 ~~~ shell
 git config --global --add merge.Rhapsody.name 'Rhapsody merge driver'
